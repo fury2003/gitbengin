@@ -1,0 +1,19 @@
+<html ng-app="myApp">
+	<head>
+	<title>Angular Setup</title>
+	<script type="text/javascript" src="../libs/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+	<body>
+	<div ng-controller="FirstController">
+		<input type="text" ng-model="model.name">
+		<p>This is the first controller: {{model.name}}</p>
+	</div>
+
+	<div ng-controller="SecondController">
+		<input type="text" ng-model="model.name">
+		<p>This is the second controller: {{model.name}}</p>
+	</div>
+	
+	</body>
+</html>	

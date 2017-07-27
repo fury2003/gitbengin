@@ -1,0 +1,16 @@
+<html ng-app="myApp">
+	<head>
+	<title>Angular Setup</title>
+	<script type="text/javascript" src="../libs/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body ng-controller="MainController">
+			<p>{{sayHello('David')}}</p>
+			<p>{{sayHello('Manick')}}</p>
+
+			<p><input type="text" name="" ng-model="itemIndex">
+			<input type="button" value="Get Item" ="" ng-click="getItem()"></p>
+
+			<p>Current Item: {{currentItem}}</p>
+	</body>
+</html>
